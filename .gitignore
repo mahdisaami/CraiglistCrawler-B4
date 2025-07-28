@@ -163,6 +163,10 @@ dmypy.json
 
 # Cython debug symbols
 cython_debug/
+fixtures/adv/*
+fixtures/images/*
+!fixtures/adv/.gitkeep
+!fixtures/images/.gitkeep
 
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
@@ -175,4 +179,4 @@ cython_debug/
 n
 
 ../.idea
-utils
+utils.py
